@@ -28,9 +28,9 @@ int main(void)
 				}
 			}
 
-			c++
+			c++;
 		}
-		d++
+		d++;
 	}
 	putchar('\n');
 	return (0);
