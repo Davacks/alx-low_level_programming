@@ -1,11 +1,8 @@
-#include <time.h>
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - main block
- * Description: prints all single digit numbers of base 10
- * starting rom 0, followed by a new line.
- * Return: 0
+ * main - print the alphabet in lowercase letters in revers
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -18,6 +15,7 @@ int main(void)
 	}
 
 	putchar('\n');
+
 	return (0);
 }
 
