@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
- * main - main block
- * Description: Get a random number and check it's last digit, compare it with the digit 5
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
