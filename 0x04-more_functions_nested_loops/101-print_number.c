@@ -1,6 +1,7 @@
 #include "main.h"
-#include <stdlib.h>
+
 #include <stdio.h>
+#include <stdlib.h>
 
 int _putchar(char c);
 
@@ -15,7 +16,7 @@ void print_number(int n)
 
 	unsigned int n1 = 0;
 
-	if (n < 0)
+	if  (n < 0)
 	{
 		n1 = -n;
 		_putchar('-');

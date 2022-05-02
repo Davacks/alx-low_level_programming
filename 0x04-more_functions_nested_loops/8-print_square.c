@@ -9,15 +9,15 @@
 void print_square(int n)
 {
 
-	int i = 0, aa;
+	int i = 0, ii;
 
 	while (i < n && n > 0)
 	{
-		aa = 0;
-		while (aa < n)
+		ii = 0;
+		while (ii < n)
 		{
 			_putchar('#');
-			aa++;
+			ii++;
 		}
 
 		_putchar('\n');

@@ -3,21 +3,21 @@
 /**
  * main - prime numbers
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 
 int main(void)
 {
 	long int x = 612852475143;
-	long int pn;
+	long int py;
 
-	for (py = 2; py < x; pn++)
+	for (py = 2; py < x; py++)
 	{
-		if (x % pn == 0)
+		if (x % py == 0)
 		{
-			x = x / pn;
+			x = x / py;
 		}
 	}
-	printf("%ld\n", pn);
+	printf("%ld\n", py);
 	return (0);
 }
